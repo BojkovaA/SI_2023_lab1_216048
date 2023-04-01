@@ -1,0 +1,72 @@
+216048
+
+$ mkdir SI_2023_lab1_216048 (креирам loacal repo)
+
+$ cd SI_2023_lab1_216048 (влегувам во SI_2023_lab1_216048) 
+
+$ git init (го иницијализирам Git)
+Initialized empty Git repository in C:/Users/Angela Bojkova/SI_2023_lab1_216048/.git/
+
+$ git remote add origin https://github.com/BojkovaA/SI_2023_lab1_216048.git (го поврзувам со remote repo)
+
+$ touch README.md (креиррам README.md)
+
+$ nano README.md (внесувам име презиме и индекс во README.md)
+
+$ git add README.md (го додвам README.md на сцена)
+
+$ git commit -m "Initial commit."
+[master (root-commit) 3ed6046] Initial commit.
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SILab1.java
+
+nothing added to commit but untracked files present (use "git add" to track) (додадив SIlab1.java)
+
+$ git add SILab1.java
+
+$ git commit -m "Add java class."
+
+$ git branch bug1
+
+$ git branch bug2
+
+$ git branch bug3 (креирав 3 гранки)
+
+$ git push --all(ги синхроннизирав )
+
+$ git checkout bug1
+$ nano SILab1.java 
+$ git commit -a -m "Fix wrong loop for reading." (ја поправив грешката на bug1)
+
+$ git checkout bug2
+$ nano SILab1.java 
+$ git commit -a -m "Fix wrong condition in filterOddNumbers." (ја поправив грешката на bug2)
+
+$ git checkout bug3
+$ nano SILab1.java 
+$ git commit -a -m "Fix method sumEvenNumbers." (ја поправив грешката на bug3)
+
+$ git push --all (ги синхронизирав сите гранки)
+
+$ git chechout master 
+
+$ git merge bug1 (ја споив bug1 со master со стратегија fast-forward и немаше конфликти)
+$ git push --all
+
+$ git merge bug2 (ја споив bug2 со mastre со стратегија recursive и немаше конфликти)
+$git push --all
+
+$ git checkout bug3
+$ git rebase master
+$ git checkout master
+$ git merge bug3 (ја споив bug3 со master со fast-forward стратегија бидејќи користев rebase)
+
+$ git push --all --force (ги синхронизирав сите гранки)
+
+$ git log

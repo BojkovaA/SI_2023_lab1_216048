@@ -1,0 +1,37 @@
+$ git log
+commit 065aab37f741af59e651c8ed2f60d82e15b546d5 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: BojkovaA <108904427+BojkovaA@users.noreply.github.com>
+Date:   Sat Apr 1 14:10:43 2023 +0200
+
+    Fix method sumEvenNumbers.
+
+commit b2385f265eec9de76ee7e7fe55fb29d5477e60f9
+Merge: cf530ff c030cd5
+Author: BojkovaA <108904427+BojkovaA@users.noreply.github.com>
+Date:   Sat Apr 1 14:27:25 2023 +0200
+
+    Merge branch 'bug2'
+
+commit c030cd50fc9b442daef1ff3595fe2b5f6fc05505 (origin/bug2, bug2)
+Author: BojkovaA <108904427+BojkovaA@users.noreply.github.com>
+Date:   Sat Apr 1 14:08:44 2023 +0200
+
+    Fix wrong condition in filterOddNumbers.
+
+commit cf530ff87c5ca0a01c113c82fe532bc058b08238 (origin/bug1, bug1)
+Author: BojkovaA <108904427+BojkovaA@users.noreply.github.com>
+Date:   Sat Apr 1 14:07:06 2023 +0200
+
+    Fix wrong loop for reading.
+
+commit c23362752d46ab259f62ade92ea1806b11045c42
+Author: BojkovaA <108904427+BojkovaA@users.noreply.github.com>
+Date:   Sat Apr 1 14:02:08 2023 +0200
+
+    Add java class.
+
+commit 3ed6046c45c89acc070c480f3e4dfe9dee8a8f6e
+Author: BojkovaA <108904427+BojkovaA@users.noreply.github.com>
+Date:   Sat Apr 1 13:28:19 2023 +0200
+
+    Initial commit.
